@@ -23,5 +23,6 @@ public class MediaAlunos {
     {
       JOptionPane.showMessageDialog(null,"A média do aluno é: \n"+ formato.format(media) + "\n" + "Ele foi reprovado");
     }
+  
   }
 }
