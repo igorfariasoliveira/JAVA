@@ -5,7 +5,7 @@ public class CalculadoraComSeletor
 {
   public static void main(String[] args) 
   {
-    int n1, n2, soma, sub, mult, div, res;
+    int n1, n2, soma, sub, mult, div;
     String operacao;
 
     n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro"));
@@ -16,6 +16,15 @@ public class CalculadoraComSeletor
     {
       soma = n1 + n2;
       JOptionPane.showMessageDialog(null, "O resultado é: "+soma);
+    } else if (operacao.equals("-")) {
+      sub = n1 - n2;
+      JOptionPane.showMessageDialog(null, "O resultado é: "+sub);
+    } else if (operacao.equals("*")) {
+      mult = n1 * n2;
+      JOptionPane.showMessageDialog(null, "O resultado é: "+mult);
+    } else if (operacao.equals("/")) {
+      div = n1 / n2;
+      JOptionPane.showMessageDialog(null, "O resultado é: "+div);
     } else{
       JOptionPane.showMessageDialog(null, "Erro");
     }
