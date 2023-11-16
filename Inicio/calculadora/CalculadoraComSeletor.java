@@ -23,8 +23,12 @@ public class CalculadoraComSeletor
       mult = n1 * n2;
       JOptionPane.showMessageDialog(null, "O resultado é: "+mult);
     } else if (operacao.equals("/")) {
-      div = n1 / n2;
-      JOptionPane.showMessageDialog(null, "O resultado é: "+div);
+      if (n2 != 0) {
+        div = n1 / n2;
+        JOptionPane.showMessageDialog(null, "O resultado é: " + div);
+    } else {
+        JOptionPane.showMessageDialog(null, "Erro: Divisão por zero");
+    }
     } else{
       JOptionPane.showMessageDialog(null, "Erro");
     }
