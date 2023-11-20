@@ -7,7 +7,7 @@ public class OperadoresLogicos {
     y=5;
     z=8;
     boolean r;
-    r = (x<y || y==z)?true:false;
+    r = (x<y ^ y<z)?true:false;
     System.out.println(r);
   }
 }
