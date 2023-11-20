@@ -1,4 +1,4 @@
-package operadorternario;
+package operadores;
 public class OperadorTernario01 {
   public static void main(String[] args) {
     int n1, n2, r;
