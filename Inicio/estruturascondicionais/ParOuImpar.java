@@ -11,7 +11,7 @@ public class ParOuImpar {
     if (res == 0) {
       JOptionPane.showMessageDialog(null, "O número é par");
     }else{
-      JOptionPane.showMessageDialog(null, "O número é impar");
+      JOptionPane.showMessageDialog(null, "O número é impar");  
     }
     
   }
