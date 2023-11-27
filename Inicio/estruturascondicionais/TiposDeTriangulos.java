@@ -11,9 +11,11 @@ public class TiposDeTriangulos {
     ladoc = Integer.parseInt(JOptionPane.showInputDialog("Digite o lado C do triângulo"));
 
     if (ladoa == ladob && ladob==ladoc) {
-      JOptionPane.showMessageDialog(null, "É um triângulo equilatero");
-    }else if ((ladoa == ladob && ladob != ladoc ) || (ladob == ladoc && ladob != ladoa) ||) {
-      
+      JOptionPane.showMessageDialog(null, "É um triângulo equilátero");
+    }else if ((ladoa == ladob && ladob != ladoc ) || (ladob == ladoc && ladob != ladoa) || (ladoa == ladoc && ladoa != ladob)) {
+      JOptionPane.showMessageDialog(null, "É um triângulo isóceles");
+    }else {
+      JOptionPane.showMessageDialog(null, "É um triângulo escaleno");
     }
   }
 }
