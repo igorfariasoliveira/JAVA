@@ -6,7 +6,7 @@ public class QualTime {
   public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
     int titulos = teclado.nextInt();
-    String time="";
+    String time;
     switch (titulos) {
       case 1:
         time = "Vasco";
@@ -18,6 +18,7 @@ public class QualTime {
       time = "Flamengo";
         break;
       default:
+      time = "Não importante";
         break;
     }
     System.out.println(time);
