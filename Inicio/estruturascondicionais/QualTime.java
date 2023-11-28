@@ -18,7 +18,7 @@ public class QualTime {
       time = "Flamengo";
         break;
       default:
-      time = "Não importante";
+      time = "Não importante"
         break;
     }
     System.out.println(time);
