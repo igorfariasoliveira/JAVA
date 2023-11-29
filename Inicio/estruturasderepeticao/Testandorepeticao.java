@@ -5,7 +5,7 @@ public class Testandorepeticao {
     int carneirinhos=0;
 
     while (carneirinhos<10) {
-      System.out.println(carneirinhos + " carneirinhos");
+      System.out.println((carneirinhos + 1) + " carneirinhos");
       carneirinhos++;
     }
   }
