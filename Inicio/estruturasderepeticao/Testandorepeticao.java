@@ -5,12 +5,12 @@ import javax.swing.JOptionPane;
 public class Testandorepeticao {
   public static void main(String[] args) {
     int carneirinhos=1;
-    String
+    String contador = "";
 
     while (carneirinhos<=10) {
-      System.out.println((carneirinhos) + " carneirinhos");
+      contador += carneirinhos + "";
       carneirinhos++;
     }
-    JOptionPane.showMessageDialog(null, carneirinhos);
+    JOptionPane.showMessageDialog(null, contador);
   }
 }
