@@ -5,8 +5,12 @@ public class Testandorepeticao {
     int carneirinhos=0;
 
     while (carneirinhos<10) {
-      System.out.println((carneirinhos + 1) + " carneirinhos");
       carneirinhos++;
+      if (carneirinhos==5 || carneirinhos==7) {
+        continue;
+      }
+      System.out.println((carneirinhos) + " carneirinhos");
+      
     }
   }
 }
