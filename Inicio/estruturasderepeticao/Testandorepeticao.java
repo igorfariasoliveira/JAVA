@@ -6,7 +6,7 @@ public class Testandorepeticao {
 
     while (carneirinhos<10) {
       carneirinhos++;
-      if (carneirinhos==5 || carneirinhos==7) {
+      if (carneirinhos%2==0) {
         continue;
       }
       System.out.println((carneirinhos) + " carneirinhos");
