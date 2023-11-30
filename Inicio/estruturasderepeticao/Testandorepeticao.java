@@ -13,4 +13,4 @@ public class Testandorepeticao {
     }
     JOptionPane.showMessageDialog(null, contador);
   }
-}
+} 
