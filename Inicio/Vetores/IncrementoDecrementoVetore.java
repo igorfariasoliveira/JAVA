@@ -1,5 +1,7 @@
 package Vetores;
 
+import java.util.Arrays;
+
 import javax.swing.JOptionPane;
 
 public class IncrementoDecrementoVetore {
@@ -65,19 +67,39 @@ public class IncrementoDecrementoVetore {
     } while (!opcao.equals("4"));
   }
 
-  // Método para adicionar um elemento ao vetor
   private static void adicionarElemento(int[] vetor) {
-    // Lógica para adicionar um elemento ao vetor
-  }
+    int novoElemento = Integer.parseInt(JOptionPane.showInputDialog("Digite o elemento a ser adicionado:"));
+
+    // Procura por um espaço vazio no vetor (valor 0) para adicionar o novo elemento
+    for (int i = 0; i < vetor.length; i++) {
+        if (vetor[i] == 0) {
+            vetor[i] = novoElemento;
+            JOptionPane.showMessageDialog(null, "Elemento adicionado com sucesso!");
+            return; // Sai do método após adicionar o elemento
+        }
+    }
+
+    JOptionPane.showMessageDialog(null, "O vetor está cheio. Remova elementos antes de adicionar mais.");
+}
 
   // Método para remover um elemento do vetor
   private static void removerElemento(int[] vetor) {
-    // Lógica para remover um elemento do vetor
-  }
+    int elementoRemover = Integer.parseInt(JOptionPane.showInputDialog("Digite o elemento a ser removido:"));
+
+    for (int i = 0; i < vetor.length; i++) {
+        if (vetor[i] == elementoRemover) {
+            vetor[i] = 0; // Define o elemento como zero para indicar remoção
+            JOptionPane.showMessageDialog(null, "Elemento removido com sucesso!");
+            return; // Sai do método após remover o elemento
+        }
+    }
+
+    JOptionPane.showMessageDialog(null, "Elemento não encontrado no vetor.");
+}
 
   // Método para organizar o vetor
-  private static void organizarVetor(int[] vetor) {
-    // Lógica para organizar o vetor
-    // Por exemplo, Arrays.sort(vetor);
-  }
+    private static void organizarVetor(int[] vetor) {
+        Arrays.sort(vetor);
+        JOptionPane.showMessageDialog(null, "Vetor organizado com sucesso!");
+    }
 }
