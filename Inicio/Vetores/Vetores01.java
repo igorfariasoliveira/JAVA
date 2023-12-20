@@ -1,4 +1,4 @@
-package Vetores;
+package vetores;
 
 public class Vetores01 {
   public static void main(String[] args) {
