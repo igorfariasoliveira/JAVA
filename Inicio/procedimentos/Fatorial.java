@@ -15,6 +15,14 @@ public class Fatorial {
       s += c + " x ";
     }
     s += "1 = ";
-    
+    fat = f;
+    formula = s;
+  }
+
+  public int getFatorial(){
+    return fat;
+  }
+  public String getFormula(){
+    return formula;
   }
 }
