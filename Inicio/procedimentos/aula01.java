@@ -1,12 +1,14 @@
 package procedimentos;
 
 public class aula01 {
-  static void soma(int a,int b){
+  static int soma(int a,int b){
     int s = a + b;
-    System.out.println("A soma é: " + s);
+    return s;
   }
   public static void main(String[] args) {
     System.out.println("Resultado: ");
-    soma(5,7);
+    int rec = soma(5,7);
+    
+    System.out.println(rec);
   }
 }
