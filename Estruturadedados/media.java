@@ -8,7 +8,6 @@ public class media {
     for (i = 0; i <= 49; i++){
       VetSoma[i] = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor inteiro"));
       soma = soma + VetSoma[i];
-      System.out.println(i);
     } 
     media = (double) soma/50;
     System.out.println("A soma dos valores é: "+soma);
