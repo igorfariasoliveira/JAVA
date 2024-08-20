@@ -1,6 +1,6 @@
 import javax.swing.*;
-public class vetor {
-  public static void main(String args []) {
+public class Vetor {
+  public static void main(String[] args) {
     int VetSoma [] , i , soma = 0;
     VetSoma = new int[100];
 

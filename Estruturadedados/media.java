@@ -1,6 +1,6 @@
 import javax.swing.*;
-public class media {
-  public static void main(String args []) {
+public class Media {
+  public static void main(String[] args ) {
     int VetSoma [] , i , soma = 0;
     double media = 0;
     VetSoma = new int[50];
