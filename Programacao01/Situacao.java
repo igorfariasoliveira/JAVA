@@ -9,6 +9,7 @@ public class Situacao {
     objeto.trabalho = 10;
     objeto.prova = 5;
 
-    System.out.println(objeto.resultado());
+    
+    System.out.println("O aluno "+objeto.nome+" teve uma média de "+objeto.resultado());
   }
 }
