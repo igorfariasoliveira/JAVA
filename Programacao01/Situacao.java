@@ -5,11 +5,11 @@ public class Situacao {
     
     Aluno aluno = new Aluno();
 
-    aluno.configurarNome("Igor");
+    aluno.setNome("Igor");
     aluno.trabalho = 10;
     aluno.prova = 5;
 
     
-    System.out.println("O aluno "+aluno.nome+" teve uma média de "+aluno.resultado());
+    System.out.println("O aluno "+aluno.getNome()+" teve uma média de "+aluno.resultado());
   }
 }
