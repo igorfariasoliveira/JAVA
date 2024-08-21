@@ -3,13 +3,13 @@ package Programacao01;
 public class Situacao {
   public static void main(String[] args) {
     
-    Aluno objeto = new Aluno();
+    Aluno aluno = new Aluno();
 
-    objeto.nome = "Igor";
-    objeto.trabalho = 10;
-    objeto.prova = 5;
+    aluno.nome = "Igor";
+    aluno.trabalho = 10;
+    aluno.prova = 5;
 
     
-    System.out.println("O aluno "+objeto.nome+" teve uma média de "+objeto.resultado());
+    System.out.println("O aluno "+aluno.nome+" teve uma média de "+aluno.resultado());
   }
 }
