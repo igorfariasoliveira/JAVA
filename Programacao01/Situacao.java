@@ -8,5 +8,7 @@ public class Situacao {
     objeto.nome = "Igor";
     objeto.trabalho = 10;
     objeto.prova = 5;
+
+    System.out.println(objeto.resultado());
   }
 }
