@@ -5,7 +5,7 @@ public class Situacao {
     
     Aluno aluno = new Aluno();
 
-    aluno.nome = "Igor";
+    aluno.configurarNome("Igor");
     aluno.trabalho = 10;
     aluno.prova = 5;
 
