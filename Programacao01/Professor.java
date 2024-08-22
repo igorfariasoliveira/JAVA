@@ -22,7 +22,7 @@ public class Professor {
   }
 
   public double getSalarioLiquido(){
-    return salario = getInss();
+    return salario-getInss();
   }
   
 }
