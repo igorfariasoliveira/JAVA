@@ -16,8 +16,8 @@ public class Situacao {
     professor.setName("Einstein");
     professor.setSalario(1000);
 
-    System.out.println("");
-    System.out.println();
-    System.out.println();
+    System.out.println("O professor "+professor.getName());
+    System.out.println("Recebe um sário de R$"+professor.getSalario());
+    System.out.println("Descontando 11% do INSS fica para receber liquido R$"+professor.getSalarioLiquido());
   }
 }
