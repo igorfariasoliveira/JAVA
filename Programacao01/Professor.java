@@ -21,5 +21,8 @@ public class Professor {
     return salario*0.11;
   }
 
+  public double getSalarioLiquido(){
+    return salario = getInss();
+  }
   
 }
