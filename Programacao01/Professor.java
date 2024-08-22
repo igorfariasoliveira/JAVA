@@ -1,15 +1,9 @@
 package Programacao01;
 
-public class Professor {
-  String name;
+public class Professor extends Pessoa{
+  
   double salario;
   
-  public String getName() {
-    return name;
-  }
-  public void setName(String name) {
-    this.name = name;
-  }
   public double getSalario() {
     return salario;
   }
