@@ -18,7 +18,7 @@ public class Professor {
   }
 
   public double getInss(){
-    
+    return salario*0.11;
   }
 
   
