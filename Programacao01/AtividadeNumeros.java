@@ -9,20 +9,21 @@ public class AtividadeNumeros {
     Scanner input = new Scanner(System.in);
 
     ArrayList<Integer> numeros = new ArrayList<>();
-    int c=0;
+    int c, numusuario;
     int soma=0;
 
     do {
      
       System.out.println("Digite um número: ");
-      numeros.add(input.nextInt());
+      numusuario = input.nextInt();
+      numeros.add(numusuario);
 
       System.out.println("Deseja acrescentar mais um número? (1 para sim ou 0 para não)");
       c = input.nextInt();
-      soma += numeros;
+      soma += numusuario;
     
     }while (c != 0);
 
-
+    
   }
 }
