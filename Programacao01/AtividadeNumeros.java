@@ -8,6 +8,11 @@ public class AtividadeNumeros {
     
     Scanner input = new Scanner(System.in);
 
-    ArrayList<int>
+    ArrayList<Integer> numeros = new ArrayList<>();
+    int c=0;
+
+    while (c != 0) {
+      
+    }
   }
 }
