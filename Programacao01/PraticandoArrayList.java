@@ -23,6 +23,8 @@ public class PraticandoArrayList {
 
     System.out.println();
     
+    times.remove(2);
+
     System.out.println("Depois");
 
     for(String nome: times){
