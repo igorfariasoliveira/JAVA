@@ -24,6 +24,7 @@ public class AtividadeNumeros {
     
     }while (c != 0);
 
-    
+    System.out.println("Os números digitados foram: "+numeros);
+    System.out.println("A soma desses números é "+soma);
   }
 }
