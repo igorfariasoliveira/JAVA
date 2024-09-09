@@ -10,9 +10,19 @@ public class AtividadeNumeros {
 
     ArrayList<Integer> numeros = new ArrayList<>();
     int c=0;
+    int soma=0;
 
-    while (c != 0) {
-      
-    }
+    do {
+     
+      System.out.println("Digite um número: ");
+      numeros.add(input.nextInt());
+
+      System.out.println("Deseja acrescentar mais um número? (1 para sim ou 0 para não)");
+      c = input.nextInt();
+      soma += numeros;
+    
+    }while (c != 0);
+
+
   }
 }
