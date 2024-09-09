@@ -22,11 +22,12 @@ public class PraticandoArrayList {
     times.set(1, "Internacional");
 
     System.out.println();
-    System.out.println();
-
+    
     System.out.println("Depois");
 
-    for(String nome: times)
+    for(String nome: times){
+      System.out.println(nome);
+    }
   
   }
 }
